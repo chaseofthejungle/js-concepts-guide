@@ -8,3 +8,5 @@ There are two *special functions* for performancing memoization:
   + A closure is a function plus the lexical environment (contains local variables, other functions within the current scope, and references to other scopes) that the function was declared within.
 * Higher Order Functions
   + These are functions that operate upon various other functions, either by returning them or through accepting them as arguments).
+
+TODO: Add code example.
