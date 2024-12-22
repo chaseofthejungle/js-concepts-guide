@@ -13,7 +13,9 @@ There are two *special functions* for performancing memoization:
 * Higher Order Functions
   + These are functions that operate upon various other functions, either by returning them or through accepting them as arguments).
 
-**Promises:** These are JS objects that will eventually produce values. It is good practice for a failing promise to produce a self-documenting reason as to why it failed.
+**Promises:** These are JS objects that will eventually produce values. It is good practice for a failing promise to produce a self-documenting reason as to why it failed.  
+
+**Strict Mode [ECMAScript 5 standard and later]:** The directive `"use strict"` (a literal expression, rather than a statement) toggles on the JavaScript strict mode. It prevents undeclared variables from being usable and requires stricter error handling and parsing during runtime.
 
 TODO #1: Add code examples for each section.  
-TODO #2: Calling/Binding/Applying, Currying, Debouncing, Hoisting, IIFEs, Polyfills, Scopes, Strict Mode, and Throttling.
+TODO #2: Calling/Binding/Applying, Currying, Debouncing, Hoisting, IIFEs, Polyfills, Scopes, and Throttling.
