@@ -18,4 +18,5 @@ There are two *special functions* for performancing memoization:
 **Strict Mode [ECMAScript 5 standard and later]:** The directive `"use strict"` (a literal expression, rather than a statement) toggles on the JavaScript strict mode. It prevents undeclared variables from being usable and requires stricter error handling and parsing during runtime.
 
 TODO #1: Add code examples for each section.  
-TODO #2: Calling/Binding/Applying, Currying, Debouncing, Hoisting, IIFEs, Polyfills, Scopes, and Throttling.
+TODO #2: Calling/Binding/Applying, Currying, Debouncing, Hoisting, IIFEs, Polyfills, Scopes, and Throttling.  
+TODO #3: Add and explain methods for the following categories: Arrays, Dates, JSON, Math, Objects, Promises, Strings.
