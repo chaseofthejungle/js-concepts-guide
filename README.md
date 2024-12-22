@@ -9,4 +9,5 @@ There are two *special functions* for performancing memoization:
 * Higher Order Functions
   + These are functions that operate upon various other functions, either by returning them or through accepting them as arguments).
 
-TODO: Add code example for memoization.
+TODO #1: Add code example for memoization.
+TODO #2: Asyncing/Awaiting, Callbacks, Calling/Binding/Applying, Closures, Currying, Debouncing, Higher Order Functions, Hoisting, IIFEs, Polyfills, Promises, Scopes, Strict Mode, and Throttling.
