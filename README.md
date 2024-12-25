@@ -1,5 +1,23 @@
 # JavaScript Concepts Guide
 
+**Methods:** Methods play an essential role in JavaScript (JS), as well as other Object-Oriented Programming (OOP) languages. Tasks such as optimizing the performance of code, manipulating/transforming data (such as String, Array, and Object data), and empowering the user to interact via interfaces are common purposes of JS methods.
+
+* String Method examples...
+  + `trim()` removes spaces from string values.
+  + `includes()` verifies if a string contains a specified substring or element.
+  + `toLowerCase()` and `toUpperCase()` are self-evident.
+    - A sample usage would be `console.log("SAMPLE".toLowerCase());`, which would produce an output of `sample`.
+* Array Method examples...
+  + `forEach()` executes a specified action for all elements in an array.
+  + `filter()` retrieves elements based on a specified condition.
+  + `map()` generates a new array in which all elements have been manipulated by a specified function. 
+* Object Method examples...
+  + `Object.values()` retrieves all of the values from a specified object.
+  + `Object.keys()` is similar, but retrieves all of the keys instead.
+  + `Object.entries()`, while not changing the original object, retrieves an array of an object's key/value pairs.
+  
+<hr />
+
 **Asyncs and Awaits:** These are used in tandem with promises (see the 'Promises' section below). If the keyword `async` is written before a function, then the function is intended to return a promise. If the keyword `await` is written inside of an async funtion, then the program will wait until after the promise is fulfilled.
 
 **Applying/Binding/Calling:** Apply and call are similar methods that enable developers to alter the contexts of invoked functions. While call methods can replace a value inside of a function with a new specified `this` value, apply methods use arrays instead of individual values as arguments. Bind methods create/return new functions that can be executed later (and will utilize user-specified `this` values).
