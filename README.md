@@ -5,9 +5,12 @@
 * String Method examples...
   + `charAt()` returns the character positioned at a specified index in a string.
   + `includes()` verifies if a string contains a specified substring or element.
+  + `indexOf()` retrieves the first position in a string in which a specified value is found.
+  + `length()` retrieves the total number of characters from a string.
   + `replace()` swaps characters in a string with other characters (as specified).
   + `slice()` returns characters of a specified position range from a string.
   + `split()` divides a string into parts based on a specified delimiter.
+  + `substring()` extracts characters occurring between two specified positions of a string and returns a new value.
   + `toLowerCase()` and `toUpperCase()` are self-evident.
     - A sample usage would be `console.log("SAMPLE".toLowerCase());`, which would produce an output of `sample`.
   + `trim()` removes spaces from string values.
