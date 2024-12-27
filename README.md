@@ -8,17 +8,17 @@
   + `replace()` swaps characters in a string with other characters (as specified).
   + `slice()` returns characters of a specified position range from a string.
   + `split()` divides a string into parts based on a specified delimiter.
-  + `trim()` removes spaces from string values.
   + `toLowerCase()` and `toUpperCase()` are self-evident.
     - A sample usage would be `console.log("SAMPLE".toLowerCase());`, which would produce an output of `sample`.
+  + `trim()` removes spaces from string values.
 * Array Method examples...
-  + `forEach()` executes a specified action for all elements in an array.
   + `filter()` retrieves elements based on a specified condition.
+  + `forEach()` executes a specified action for all elements in an array.
   + `map()` generates a new array in which all elements have been manipulated by a specified function. 
 * Object Method examples...
-  + `Object.values()` retrieves all of the values from a specified object.
-  + `Object.keys()` is similar, but retrieves all of the keys instead.
-  + `Object.entries()`, while not changing the original object, retrieves an array of an object's key/value pairs.
+  + `entries()` retrieves an array of an object's key/value pairs without modifying the object itself.
+  + `keys()` is similar, but retrieves all of the keys instead.
+  + `values()` retrieves all of the values from a specified object.
   
 <hr />
 
@@ -44,5 +44,5 @@ There are two *special functions* for performancing memoization:
 **Strict Mode [ECMAScript 5 standard and later]:** The directive `"use strict"` (a literal expression, rather than a statement) toggles on the JavaScript strict mode. It prevents undeclared variables from being usable and requires stricter error handling and parsing during runtime.
 
 TODO #1: Add code examples for each section.  
-TODO #2: Debouncing, Hoisting, IIFEs, Polyfills, Scopes, and Throttling.  
-TODO #3: Add and explain methods for the following categories: Arrays, Dates, JSON, Math, Objects, Promises, Strings.
+TODO #2: Add sections on Debouncing, Hoisting, IIFEs, Polyfills, Scopes, and Throttling.  
+TODO #3: Add and explain methods for the following categories: Arrays, Dates, JSON, Math, Objects, Promises.
