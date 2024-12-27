@@ -3,8 +3,12 @@
 **Methods:** Methods play an essential role in JavaScript (JS), as well as other Object-Oriented Programming (OOP) languages. Tasks such as optimizing the performance of code, manipulating/transforming data (such as String, Array, and Object data), and empowering the user to interact via interfaces are common purposes of JS methods.
 
 * String Method examples...
-  + `trim()` removes spaces from string values.
+  + `charAt()` returns the character positioned at a specified index in a string.
   + `includes()` verifies if a string contains a specified substring or element.
+  + `replace()` swaps characters in a string with other characters (as specified).
+  + `slice()` returns characters of a specified position range from a string.
+  + `split()` divides a string into parts based on a specified delimiter.
+  + `trim()` removes spaces from string values.
   + `toLowerCase()` and `toUpperCase()` are self-evident.
     - A sample usage would be `console.log("SAMPLE".toLowerCase());`, which would produce an output of `sample`.
 * Array Method examples...
