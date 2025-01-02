@@ -69,9 +69,12 @@ There are two *special functions* for performancing memoization:
 
 *Some common pitfalls in JS development include:*
   
-* Decreased performance and readability from not utilizing arrow functions, promises, the forEach() method, the spread operator, strict equality, and/or destructuring.
-* Forgetting to enable strict mode.
+* Decreased performance and readability from not utilizing arrow functions, promises, the forEach() method, the spread operator, strict equality (comparing both values *and* their type), and/or destructuring.  
+* Forgetting to enable strict mode.  
+* Needlessly declaring functions and variables globally (causing every JS file included within a page to execute within the same scope).  
+* Not modularizing functions (failing to write functions so that they only perform one task at a time).  
 * Only using `var` instead of `let` and `const` for variable declarations, potentially leading to redeclarations and variables declared outside of proper scope.
+* Poor loop performance due to reading array length attribute at each iteration (solvable by storing length within a variable and accessing it as necessary).
   
 <hr />
   
