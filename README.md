@@ -44,10 +44,20 @@ There are two *special functions* for performancing memoization:
 
 **Promises:** These are JS objects that will eventually produce values. It is good practice for a failing promise to produce a self-documenting reason as to why it failed.  
 
-**Strict Mode [ECMAScript 5 standard and later]:** The directive `"use strict"` (a literal expression, rather than a statement) toggles on the JavaScript strict mode. It prevents undeclared variables from being usable and requires stricter error handling and parsing during runtime.
+**Strict Mode [ECMAScript 5 standard and later]:** The directive `"use strict"` (a literal expression, rather than a statement) toggles on the JavaScript strict mode. It prevents undeclared variables from being usable, prevents accidental declaration of global-level variables, and requires stricter error handling and parsing during runtime.
+  
+<hr />
 
+*Some common pitfalls in JS development include:*
+  
+* Decreased performance and readability from not utilizing arrow functions, promises, the forEach() method, the spread operator, strict equality, and/or destructuring.
+* Forgetting to enable strict mode.
+* Only using `var` instead of `let` and `const` for variable declarations, potentially leading to redeclarations and variables declared outside of proper scope.
+  
+<hr />
+  
 TODO #1: Add code examples for each section.  
-TODO #2: Add sections on Debouncing, Hoisting, IIFEs, Polyfills, Scopes, and Throttling.  
+TODO #2: Add sections on Debouncing, Destructuring, Hoisting, IIFEs, Polyfills, Scopes, the Spread Operator, Strict Equality (versus Loose Equality), and Throttling.  
 TODO #3: Add and explain methods for the following categories: Arrays, Dates, JSON, Math, Objects, Promises.  
 TODO #4: Add information on: arrow functions, shortening assignment operator statements, shortening conditions, shortening mathematical power operations, shortening variable declarations, template literals, and ternary operator usage.  
 TODO #5: Add section on how JS can imitate/simulate multi-threading.
