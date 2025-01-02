@@ -1,6 +1,25 @@
 # JavaScript Concepts Guide
 
-**Methods:** Methods play an essential role in JavaScript (JS), as well as other Object-Oriented Programming (OOP) languages. Tasks such as optimizing the performance of code, manipulating/transforming data (such as String, Array, and Object data), and empowering the user to interact via interfaces are common purposes of JS methods.
+**Arrays:** Arrays contrast with variables in that arrays allow for multiple values to be stored in one structure. Examples of items arrays can collect include objects, strings, numbers, and other arrays (essentially, if an item has a data type, it can be stored in an array). There are two common ways to create a JavaScript (JS) array:
+  
+`let pets = ["cat", "dog", "turtle"];`  
+`let pets = new Array("cat", "dog", "turtle");`
+  
+Individual array values/items are referred to as 'elements'. The first element in an array is considered the '0th' item in an array.  
+  
+`let pets = ["cat", "dog", "turtle"];`  
+`console.log(pets[0]); // Returns: 'cat' `  
+`console.log(pets[1]); // Returns: 'dog'`  
+`console.log(pets[2]); // Returns: 'turtle'`
+  
+Array elements can be modified by accessing their index numbers. For example:
+  
+`let pets = ["cat", "dog", "turtle"];`  
+`pets[2] = "hamster";`  
+`console.log(pets); // Returns: ["cat", "dog", "hamster"]`  
+<hr />
+  
+**Methods:** Methods play an essential role in JS, as well as other Object-Oriented Programming (OOP) languages. Tasks such as optimizing the performance of code, manipulating/transforming data (such as String, Array, and Object data), and empowering the user to interact via interfaces are common purposes of JS methods.
 
 * String Method examples...
   + `charAt()` returns the character positioned at a specified index in a string.
