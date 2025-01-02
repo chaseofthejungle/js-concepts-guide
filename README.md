@@ -48,5 +48,6 @@ There are two *special functions* for performancing memoization:
 
 TODO #1: Add code examples for each section.  
 TODO #2: Add sections on Debouncing, Hoisting, IIFEs, Polyfills, Scopes, and Throttling.  
-TODO #3: Add and explain methods for the following categories: Arrays, Dates, JSON, Math, Objects, Promises.
-TODO #4: Add information on: arrow functions, shortening assignment operator statements, shortening conditions, shortening mathematical power operations, shortening variable declarations, template literals, and ternary operator usage.
+TODO #3: Add and explain methods for the following categories: Arrays, Dates, JSON, Math, Objects, Promises.  
+TODO #4: Add information on: arrow functions, shortening assignment operator statements, shortening conditions, shortening mathematical power operations, shortening variable declarations, template literals, and ternary operator usage.  
+TODO #5: Add section on how JS can imitate/simulate multi-threading.
