@@ -2,19 +2,26 @@
 
 **Primitive Data Types:** Primitive data types in JavaScript (JS) are unchangeable and unalterable (in developer lingo: immutable). This includes variables of the types: *String*, *Boolean*, *Number*, *BigInt*, *Symbol*, *Null*, and *Undefined*. Unlike objects (e.g., functions, arrays), primitive variables store by value rather than reference.
   
-String code example: `let name = "Joe"; // literal character sequence. single quotes are also acceptable`  
+**String code example:**  
+`let name = "Joe"; // literal character sequence. single quotes are also acceptable`  
 
-Boolean code example: `let isEmployee = true; // true or false values only`  
+**Boolean code example:**  
+`let isEmployee = true; // true or false values only`  
 
-Number code example: `let price = 67.35; // can be an integer or decimal value, stored as a floating-point`  
+**Number code example:**  
+`let price = 67.35; // can be an integer or decimal value, stored as a floating-point`  
 
-BigInt code example: `let x = 9999999999999999999n; // JS integers are <= 15 characters. Trailing 'n' is BigInt syntax`  
+**BigInt code example:**  
+`let x = 9999999999999999999n; // JS integers are <= 15 characters. Trailing 'n' is BigInt syntax`  
 
-Symbol code example: `let sym = Symbol("abc"); // Unique value even if another 'abc' String or Symbol is created`  
+**Symbol code example:**  
+`let sym = Symbol("abc"); // Unique value even if another 'abc' String or Symbol is created`  
 
-Null code example: `let selectedValue = null; // indicates no value is selected`  
+**Null code example:**  
+`let selectedValue = null; // indicates no value is selected`  
 
-Undefined code example: `let x; // variable is declared but not initialized`
+**Undefined code example:**  
+`let x; // variable is declared but not initialized`
 
 <hr />
 
