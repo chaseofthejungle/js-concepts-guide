@@ -44,6 +44,18 @@ Array elements can be modified by accessing their index numbers. For example:
   
 <hr />
 
+**Undefined versus Null:** An undefined variable in JS is one in which the variable was declared but not yet given a value (in other words, not yet initialized). JS automatically assigns the type of 'undefined' to variables of this context. In comparison, a null variable is one that purposely and deliberately lacks an object value (this is commonly done to reset the value of a variable, or otherwise clear it out). Nulls are of the type 'object'.
+
+**'undefined' code example:**  
+`let x;`  
+`console.log(x); // would output 'undefined', since variable was declared but not initialized`  
+
+**'null' code example:**  
+`let x = null;`  
+`console.log(x); // would output 'null', as variable has been defined by developer to be null`  
+  
+<hr />
+
 **Asyncs and Awaits:** These are used in tandem with promises (see the 'Promises' section below). If the keyword `async` is written before a function, then the function is intended to return a promise. If the keyword `await` is written inside of an async funtion, then the program will wait until after the promise is fulfilled.
 
 **Applying/Binding/Calling:** Apply and call are similar methods that enable developers to alter the contexts of invoked functions. While call methods can replace a value inside of a function with a new specified `this` value, apply methods use arrays instead of individual values as arguments. Bind methods create/return new functions that can be executed later (and will utilize user-specified `this` values).
