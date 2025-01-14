@@ -1,6 +1,36 @@
 # JavaScript Concepts Guide
 
-**Arrays:** Arrays contrast with variables in that arrays allow for multiple values to be stored in one structure. Examples of items arrays can collect include objects, strings, numbers, and other arrays (essentially, if an item has a data type, it can be stored in an array). There are two common ways to create a JavaScript (JS) array:
+**Primitive Data Types:** Primitive data types in JavaScript (JS) are unchangeable and unalterable (in developer lingo: immutable). This includes variables of the types: *String*, *Boolean*, *Number*, *BigInt*, *Symbol*, *Null*, and *Undefined*. Unlike objects (e.g., functions, arrays), primitive variables store by value rather than reference.
+  
+String code example: `let name = "Joe"; // literal character sequence. single quotes are also acceptable`  
+
+Boolean code example: `let isEmployee = true; // true or false values only`  
+
+Number code example: `let price = 67.35; // can be an integer or decimal value, stored as a floating-point`  
+
+BigInt code example: `let x = 9999999999999999999n; // JS integers are <= 15 characters. Trailing 'n' is BigInt syntax`  
+
+Symbol code example: `let sym = Symbol("abc"); // Unique value even if another 'abc' String or Symbol is created`  
+
+Null code example: `let selectedValue = null; // indicates no value is selected`  
+
+Undefined code example: `let x; // variable is declared but not initialized`
+
+<hr />
+
+**Undefined versus Null:** An undefined variable in JS is one in which the variable was declared but not yet given a value (in other words, not yet initialized). JS automatically assigns the type of 'undefined' to variables of this context. In comparison, a null variable is one that purposely and deliberately lacks an object value (this is commonly done to reset the value of a variable, or otherwise clear it out). Nulls are of the type 'object'.
+
+**'undefined' code example:**  
+`let x;`  
+`console.log(x); // would output 'undefined', since variable was declared but not initialized`  
+
+**'null' code example:**  
+`let x = null;`  
+`console.log(x); // would output 'null', as variable has been defined by developer to be null`  
+
+<hr />
+  
+**Arrays:** Arrays contrast with variables in that arrays allow for multiple values to be stored in one structure. Examples of items arrays can collect include objects, strings, numbers, and other arrays (essentially, if an item has a data type, it can be stored in an array). There are two common ways to create a JS array:
   
 `let pets = ["cat", "dog", "turtle"];`  
 `let pets = new Array("cat", "dog", "turtle");`
@@ -41,19 +71,7 @@ Array elements can be modified by accessing their index numbers. For example:
   + `entries()` retrieves an array of an object's key/value pairs without modifying the object itself.
   + `keys()` is similar, but retrieves all of the keys instead.
   + `values()` retrieves all of the values from a specified object.
-  
-<hr />
-
-**Undefined versus Null:** An undefined variable in JS is one in which the variable was declared but not yet given a value (in other words, not yet initialized). JS automatically assigns the type of 'undefined' to variables of this context. In comparison, a null variable is one that purposely and deliberately lacks an object value (this is commonly done to reset the value of a variable, or otherwise clear it out). Nulls are of the type 'object'.
-
-**'undefined' code example:**  
-`let x;`  
-`console.log(x); // would output 'undefined', since variable was declared but not initialized`  
-
-**'null' code example:**  
-`let x = null;`  
-`console.log(x); // would output 'null', as variable has been defined by developer to be null`  
-  
+    
 <hr />
 
 **Asyncs and Awaits:** These are used in tandem with promises (see the 'Promises' section below). If the keyword `async` is written before a function, then the function is intended to return a promise. If the keyword `await` is written inside of an async funtion, then the program will wait until after the promise is fulfilled.
