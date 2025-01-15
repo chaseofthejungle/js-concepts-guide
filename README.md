@@ -28,32 +28,43 @@
 **Undefined versus Null:** An undefined variable in JS is one in which the variable was declared but not yet given a value (in other words, not yet initialized). JS automatically assigns the type of 'undefined' to variables of this context. In comparison, a null variable is one that purposely and deliberately lacks an object value (this is commonly done to reset the value of a variable, or otherwise clear it out). Nulls are of the type 'object'.
 
 **'undefined' code example:**  
-`let x;`  
-`console.log(x); // would output 'undefined', since variable was declared but not initialized`  
-
+```
+let x;  
+console.log(x); // would output 'undefined', since variable was declared but not initialized  
+```
+  
 **'null' code example:**  
-`let x = null;`  
-`console.log(x); // would output 'null', as variable has been defined by developer to be null`  
-
+```
+let x = null;  
+console.log(x); // would output 'null', as variable has been defined by developer to be null  
+```
+  
 <hr />
   
 **Arrays:** Arrays contrast with variables in that arrays allow for multiple values to be stored in one structure. Examples of items arrays can collect include objects, strings, numbers, and other arrays (essentially, if an item has a data type, it can be stored in an array). There are two common ways to create a JS array:
   
-`let pets = ["cat", "dog", "turtle"];`  
-`let pets = new Array("cat", "dog", "turtle");`
+```
+let pets = ["cat", "dog", "turtle"];  
+let pets = new Array("cat", "dog", "turtle");
+```
   
 Individual array values/items are referred to as 'elements'. The first element in an array is considered the '0th' item in an array.  
   
-`let pets = ["cat", "dog", "turtle"];`  
-`console.log(pets[0]); // Returns: 'cat' `  
-`console.log(pets[1]); // Returns: 'dog'`  
-`console.log(pets[2]); // Returns: 'turtle'`
+```
+let pets = ["cat", "dog", "turtle"];  
+console.log(pets[0]); // Returns: 'cat'   
+console.log(pets[1]); // Returns: 'dog'  
+console.log(pets[2]); // Returns: 'turtle'
+```
   
 Array elements can be modified by accessing their index numbers. For example:
   
-`let pets = ["cat", "dog", "turtle"];`  
-`pets[2] = "hamster";`  
-`console.log(pets); // Returns: ["cat", "dog", "hamster"]`  
+```
+let pets = ["cat", "dog", "turtle"];  
+pets[2] = "hamster";  
+console.log(pets); // Returns: ["cat", "dog", "hamster"]  
+```
+  
 <hr />
   
 **Methods:** Methods play an essential role in JS, as well as other Object-Oriented Programming (OOP) languages. Tasks such as optimizing the performance of code, manipulating/transforming data (such as String, Array, and Object data), and empowering the user to interact via interfaces are common purposes of JS methods.
