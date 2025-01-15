@@ -104,6 +104,54 @@ There are two *special functions* for performancing memoization:
   
 <hr />
 
+**API and the fetch() method:**
+
+In practice (code), fetch() can look something like:
+  
+```
+fetch('https://example.com/directory/submit', {  
+  method: 'POST',  
+  body: data  
+});
+```
+
+Objects can be utilized to make more compelling fetch statements: the *Request*, *Headers*, and *Response* objects.
+
+The *Request* object is used to create API requests, such as:
+  
+```
+const myRequest = new Request('url', {  
+  headers: myHeaders,  
+  credentials: myCredentials  
+});  
+    
+fetch(myRequest).then(...);
+```
+  
+*Headers* sets headers, as well as reuse them across requests. This object can be used in many ways and various formats, such as:
+  
+```
+myHeaders.append("Authorization", token);  
+myHeaders.append("Content-Type", "text/xml");
+```
+  
+The *Response* object clones response bodies, to be reused:
+
+```
+let myResponse = null;  
+  
+fetch("/api/v4/endpoint", {  
+  headers: myHeaders  
+}).then(response => {  
+  myResponse = response.clone();  
+  return response.json();  
+});
+```
+  
+The above code samples are deliberately simple illustrations of what the objects can do. Please consult the [Mozilla Fetch API documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) for additional details.
+  
+<hr />
+
 *Some common pitfalls in JS development include:*
   
 * Decreased performance and readability from not utilizing arrow functions, promises, the forEach() method, the spread operator, strict equality (comparing both values *and* their type), and/or destructuring.  
