@@ -69,7 +69,7 @@ console.log(pets); // Returns: ["cat", "dog", "hamster"]
   
 **Methods:** Methods play an essential role in JS, as well as other Object-Oriented Programming (OOP) languages. Tasks such as optimizing the performance of code, manipulating/transforming data (such as String, Array, and Object data), and empowering the user to interact via interfaces are common purposes of JS methods.
 
-* String Method examples...
+* **String Method examples...**
   + `charAt()` returns the character positioned at a specified index in a string.
   + `includes()` verifies if a string contains a specified substring or element.
   + `indexOf()` retrieves the first position in a string in which a specified value is found.
@@ -81,11 +81,11 @@ console.log(pets); // Returns: ["cat", "dog", "hamster"]
   + `toLowerCase()` and `toUpperCase()` are self-evident.
     - A sample usage would be `console.log("SAMPLE".toLowerCase());`, which would produce an output of `sample`.
   + `trim()` removes spaces from string values.
-* Array Method examples...
+* **Array Method examples...**
   + `filter()` retrieves elements based on a specified condition.
   + `forEach()` executes a specified action for all elements in an array.
   + `map()` generates a new array in which all elements have been manipulated by a specified function. 
-* Object Method examples...
+* **Object Method examples...**
   + `entries()` retrieves an array of an object's key/value pairs without modifying the object itself.
   + `keys()` is similar, but retrieves all of the keys instead.
   + `values()` retrieves all of the values from a specified object.
@@ -104,9 +104,9 @@ console.log(pets); // Returns: ["cat", "dog", "hamster"]
 
 There are two *special functions* for performancing memoization:  
 
-* Closures
+* **Closures**
   + A closure is a function plus the lexical environment (contains local variables, other functions within the current scope, and references to other scopes) that the function was declared within.
-* Higher Order Functions
+* **Higher Order Functions**
   + These are functions that operate upon various other functions, either by returning them or through accepting them as arguments).
 
 **Promises:** These are JS objects that will eventually produce values. It is good practice for a failing promise to produce a self-documenting reason as to why it failed.  
