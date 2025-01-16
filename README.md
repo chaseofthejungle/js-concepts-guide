@@ -116,8 +116,10 @@ There are two *special functions* for performancing memoization:
 <hr />
 
 **API and the fetch() method:**
-
-In practice (code), fetch() can look something like:
+  
+JS utilizes the *Fetch API* for the purpose of creating web (HTTP) requests and satisfying them with processed responses/return data. The Fetch API relies upon *promises* (discussed in the previous section of this document) to generate results. Request status verification and response body extraction can be processed through a variety of data formats (e.g., JSON, XML).
+  
+In practice, a fetch implementation might look something like:
   
 ```
 fetch('https://example.com/directory/submit', {  
