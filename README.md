@@ -110,7 +110,19 @@ There are two *special functions* for performancing memoization:
   + These are functions that operate upon various other functions, either by returning them or through accepting them as arguments).
 
 **Promises:** These are JS objects that will eventually produce values. It is good practice for a failing promise to produce a self-documenting reason as to why it failed.  
+  
+Several JS promise methods include:  
 
+* `promise.all() // if any promise fails, entire result is rejected`
+* `promise.allSettled() // returns array of all settled promise results, whether accepted or rejected`
+* `promise.any() // neglects rejected promises but resolves as soon as any promise is accepted`
+* `promise.catch() // specifies callback for handling a rejected promise`
+* `promise.finally() // specifies callback for a settled promise, whether accepted or rejected`
+* `promise.race() // determines overall result or rejection status based on how first promise is settled`
+* `promise.reject() // initializes a promise with a specified error`
+* `promise.resolve() // initializes a promise to a specified value`
+* `promise.then() // specifies callbacks for a promise, whether accepted or rejected`
+  
 **Strict Mode [ECMAScript 5 standard and later]:** The directive `"use strict"` (a literal expression, rather than a statement) toggles on the JavaScript strict mode. It prevents undeclared variables from being usable, prevents accidental declaration of global-level variables, and requires stricter error handling and parsing during runtime.
   
 <hr />
@@ -177,5 +189,5 @@ The above code samples are deliberately simple illustrations of what the objects
 <hr />
   
 TODO #1: Add sections on Debouncing, Destructuring, Hoisting, IIFEs, Inheritance, Polyfills, Prototyping, Scopes, the Spread Operator, Strict Equality (versus Loose Equality), and Throttling.  
-TODO #2: Add and explain methods (with code samples) for the following categories: Arrays, Dates, JSON, Math, Objects, Promises.  
+TODO #2: Add and explain methods (with code samples) for the following categories: Arrays, Dates, JSON, Math, Objects.  
 TODO #3: Add information on: arrow functions, imitation/simulation of multi-threading, plug-ins, shortening assignment operator statements, shortening conditions, shortening mathematical power operations, shortening variable declarations, shorthand expressions and techniques, template literals, and ternary operator usage.  
