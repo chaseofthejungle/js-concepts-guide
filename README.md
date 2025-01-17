@@ -191,3 +191,4 @@ The above code samples are deliberately simple illustrations of what the objects
 TODO #1: Add sections on Debouncing, Destructuring, Hoisting, IIFEs, Inheritance, Polyfills, Prototyping, Scopes, the Spread Operator, Strict Equality (versus Loose Equality), and Throttling.  
 TODO #2: Add and explain methods (with code samples) for the following categories: Arrays, Dates, JSON, Math, Objects.  
 TODO #3: Add information on: arrow functions, imitation/simulation of multi-threading, plug-ins, shortening assignment operator statements, shortening conditions, shortening mathematical power operations, shortening variable declarations, shorthand expressions and techniques, template literals, and ternary operator usage.  
+TODO #4: Add Axios to API section, as an alternative to the fetch method.
