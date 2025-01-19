@@ -176,6 +176,128 @@ fetch("/api/v4/endpoint", {
 The above code samples are deliberately simple illustrations of what the objects can do. Please consult the [Mozilla Fetch API documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) for additional details.
   
 <hr />
+  
+Shorthand coding techniques can be utilized to write simpler, more easily readable, and more cost efficient programs. Such techniques include...
+
+**When declaring multiple variables at once...**
+
+Instead of typing:
+
+```
+let a;
+let b;
+let c = '3';
+```
+  
+Try accomplishing all of that with one statement:
+  
+```
+let a, b, c = '3';
+```
+  
+<br />
+  
+**When writing out conditional logic...**
+  
+Instead of typing:  
+
+```
+let passingScore;
+
+if (score < 60) {
+  passingScore = false;
+} else {
+  passingScore = true;
+}
+```
+
+Try using the ternary operator:
+
+`let passingScore = score < 60 ? false : true;`
+  
+<br />
+  
+**When checking if a variable is true...**
+
+Instead of typing:
+
+`if (sampleVar === true) {}`
+
+Try getting rid of the explicit 'true' altogether:
+
+`if (sampleVar) {}`
+  
+<br />
+  
+**When doing math...**
+
+Instead of typing:
+  
+```
+a = a + b;
+a = a - b;
+```
+  
+Try using assignment operators like this:
+  
+```
+a += b;
+a -= b;
+```
+  
+<br />
+  
+**When calculating exponents...**
+  
+Instead of typing:
+  
+`Math.pow(2,4);`
+  
+Try sticking to asterisks:
+  
+`2**4;`
+  
+<br />
+  
+**When using a function to display text to screen...**
+
+Instead of typing:
+  
+```
+function sayHi(name) {
+  console.log("Hello there " + name);
+}
+```
+  
+Try using a one-line arrow function statement:
+
+```
+const sayHi = name => console.log("Hello there " + name);
+```
+  
+<br />
+  
+**When printing out multiple variables...**
+
+Instead of typing:
+  
+```
+const name = "Billy";
+const subject = "Math";
+
+const favorite = "Did you know that " + name + " really likes to study " + subject + "?";
+```
+
+Try using template literals:
+  
+```
+const name = "Billy";
+const subject = "Math";
+
+const favorite = `Did you know that ${name} really likes to study ${subject}?`;
+```
+  
+<hr />
 
 *Some common pitfalls in JS development include:*
   
@@ -190,5 +312,5 @@ The above code samples are deliberately simple illustrations of what the objects
   
 TODO #1: Add sections on Debouncing, Destructuring, Hoisting, IIFEs, Inheritance, Polyfills, Prototyping, Scopes, the Spread Operator, Strict Equality (versus Loose Equality), and Throttling.  
 TODO #2: Add and explain methods (with code samples) for the following categories: Arrays, Dates, JSON, Math, Objects.  
-TODO #3: Add information on: arrow functions, imitation/simulation of multi-threading, plug-ins, shortening assignment operator statements, shortening conditions, shortening mathematical power operations, shortening variable declarations, shorthand expressions and techniques, template literals, and ternary operator usage.  
+TODO #3: Add information on: arrow functions, imitation/simulation of multi-threading, and plug-ins.  
 TODO #4: Add Axios to API section, as an alternative to the fetch method.
