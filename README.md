@@ -310,7 +310,7 @@ const favorite = `Did you know that ${name} really likes to study ${subject}?`;
   
 <hr />
   
-TODO #1: Add sections on Debouncing, Destructuring, Hoisting, IIFEs, Inheritance, Polyfills, Prototyping, Scopes, the Spread Operator, Strict Equality (versus Loose Equality), and Throttling.  
+TODO #1: Add sections on: Arrow Functions, Debouncing, Destructuring, Hoisting, IIFEs, Inheritance, Multi-threading (as in Imitating/Simulating multi-threading), Plug-ins, Polyfills, Prototyping, Scopes, the Spread Operator, Strict Equality (versus Loose Equality), and Throttling.  
 TODO #2: Add and explain methods (with code samples) for the following categories: Arrays, Dates, JSON, Math, Objects.  
-TODO #3: Add information on: arrow functions, imitation/simulation of multi-threading, and plug-ins.  
-TODO #4: Add Axios to API section, as an alternative to the fetch method.
+TODO #3: Add Axios to API section, as an alternative to the fetch method.  
+TODO #4: Add a table of contents.
