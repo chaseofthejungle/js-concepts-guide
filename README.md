@@ -197,6 +197,48 @@ let a, b, c = '3';
   
 <br />
   
+**When checking if a variable is true...**
+
+Instead of typing:
+
+`if (sampleVar === true) {}`
+
+Try getting rid of the explicit 'true' altogether:
+
+`if (sampleVar) {}`
+  
+<br />
+  
+**When referencing a character in a string...**
+  
+Instead of typing:  
+
+`"exampleString".charAt(2);`
+
+Try skipping the method call altogether:
+
+`exampleString[0];`
+  
+<br />
+  
+**When initializing elements of an array...**
+  
+Instead of typing:  
+
+```
+let exampleArray = new Array();
+exampleArray[0] = "lizard";
+exampleArray[1] = "hippo";
+exampleArray[2] = "rat";
+exampleArray[3] = "squirrel";
+```
+   
+Try doing it all on the same line:
+  
+`let exampleArray = ["lizard", "hippo", "rat", "squirrel"];`
+
+<br />
+  
 **When writing out conditional logic...**
   
 Instead of typing:  
@@ -214,18 +256,6 @@ if (score < 60) {
 Try using the ternary operator:
 
 `let passingScore = score < 60 ? false : true;`
-  
-<br />
-  
-**When checking if a variable is true...**
-
-Instead of typing:
-
-`if (sampleVar === true) {}`
-
-Try getting rid of the explicit 'true' altogether:
-
-`if (sampleVar) {}`
   
 <br />
   
