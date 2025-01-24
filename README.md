@@ -1,5 +1,7 @@
 # JavaScript Concepts Guide
-
+  
+## Primitive Data Types
+  
 **Primitive Data Types:** Primitive data types in JavaScript (JS) are unchangeable and unalterable (in developer lingo: immutable). This includes variables of the types: *String*, *Boolean*, *Number*, *BigInt*, *Symbol*, *Null*, and *Undefined*. Unlike objects (e.g., functions, arrays), primitive variables store by value rather than reference.
   
 **String code example:**  
@@ -24,9 +26,11 @@
 `let x; // variable is declared but not initialized`
 
 <hr />
-
-**Undefined versus Null:** An undefined variable in JS is one in which the variable was declared but not yet given a value (in other words, not yet initialized). JS automatically assigns the type of 'undefined' to variables of this context. In comparison, a null variable is one that purposely and deliberately lacks an object value (this is commonly done to reset the value of a variable, or otherwise clear it out). Nulls are of the type 'object'.
-
+  
+## Undefined versus Null
+  
+**Definitions/Overview:** An *undefined variable* in JS is one in which the variable was declared but not yet given a value (in other words, not yet initialized). JS automatically assigns the type of 'undefined' to variables of this context. In comparison, a *null variable* is one that purposely and deliberately lacks an object value (this is commonly done to reset the value of a variable, or otherwise clear it out). Nulls are of the type 'object'.
+  
 **'undefined' code example:**  
 ```
 let x;  
@@ -40,6 +44,8 @@ console.log(x); // would output 'null', as variable has been defined by develope
 ```
   
 <hr />
+  
+## Arrays
   
 **Arrays:** Arrays contrast with variables in that arrays allow for multiple values to be stored in one structure. Examples of items arrays can collect include objects, strings, numbers, and other arrays (essentially, if an item has a data type, it can be stored in an array). There are two common ways to create a JS array:
   
@@ -67,6 +73,8 @@ console.log(pets); // Returns: ["cat", "dog", "hamster"]
   
 <hr />
   
+## Methods
+  
 **Methods:** Methods play an essential role in JS, as well as other Object-Oriented Programming (OOP) languages. Tasks such as optimizing the performance of code, manipulating/transforming data (such as String, Array, and Object data), and empowering the user to interact via interfaces are common purposes of JS methods.
 
 * **String Method examples...**
@@ -91,7 +99,9 @@ console.log(pets); // Returns: ["cat", "dog", "hamster"]
   + `values()` retrieves all of the values from a specified object.
     
 <hr />
-
+  
+## Miscellaneous JS Topics
+  
 **Asyncs and Awaits:** These are used in tandem with promises (see the 'Promises' section below). If the keyword `async` is written before a function, then the function is intended to return a promise. If the keyword `await` is written inside of an async funtion, then the program will wait until after the promise is fulfilled.
 
 **Applying/Binding/Calling:** Apply and call are similar methods that enable developers to alter the contexts of invoked functions. While call methods can replace a value inside of a function with a new specified `this` value, apply methods use arrays instead of individual values as arguments. Bind methods create/return new functions that can be executed later (and will utilize user-specified `this` values).
@@ -126,7 +136,9 @@ Several JS promise methods include:
 **Strict Mode [ECMAScript 5 standard and later]:** The directive `"use strict"` (a literal expression, rather than a statement) toggles on the JavaScript strict mode. It prevents undeclared variables from being usable, prevents accidental declaration of global-level variables, and requires stricter error handling and parsing during runtime.
   
 <hr />
-
+  
+## Application Programming Interface (API)
+  
 **API and the fetch() method:**
   
 JS utilizes the *Fetch API* for the purpose of creating web (HTTP) requests and satisfying them with processed responses/return data. The Fetch API relies upon *promises* (discussed in the previous section of this document) to generate results. Request status verification and response body extraction can be processed through a variety of data formats (e.g., JSON, XML).
@@ -176,6 +188,8 @@ fetch("/api/v4/endpoint", {
 The above code samples are deliberately simple illustrations of what the objects can do. Please consult the [Mozilla Fetch API documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) for additional details.
   
 <hr />
+  
+## Shorthand Coding Techniques
   
 Shorthand coding techniques can be utilized to write simpler, more easily readable, and more cost efficient programs. Such techniques include...
 
@@ -328,7 +342,9 @@ const favorite = `Did you know that ${name} really likes to study ${subject}?`;
 ```
   
 <hr />
-
+  
+## Development Pitfalls
+  
 *Some common pitfalls in JS development include:*
   
 * Decreased performance and readability from not utilizing arrow functions, promises, the forEach() method, the spread operator, strict equality (comparing both values *and* their type), and/or destructuring.  
