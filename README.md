@@ -11,6 +11,8 @@
 7. Shorthand Coding Techniques
 8. Development Pitfalls
   
+<hr />
+
 ## Primitive Data Types
   
 **Primitive Data Types:** Primitive data types in JavaScript (JS) are unchangeable and unalterable (in developer lingo: immutable). This includes variables of the types: *String*, *Boolean*, *Number*, *BigInt*, *Symbol*, *Null*, and *Undefined*. Unlike objects (e.g., functions, arrays), primitive variables store by value rather than reference.
