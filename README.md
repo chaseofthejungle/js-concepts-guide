@@ -1,4 +1,15 @@
 # JavaScript Concepts Guide
+
+#### Table of Contents:
+
+1. Primitive Data Types
+2. Undefined versus Null
+3. Arrays
+4. Methods
+5. Miscellaneous JS Topics
+6. Application Programming Interface (API)
+7. Shorthand Coding Techniques
+8. Development Pitfalls
   
 ## Primitive Data Types
   
