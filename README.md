@@ -2,18 +2,18 @@
 
 #### Table of Contents:
 
-1. Primitive Data Types
-2. Undefined versus Null
-3. Arrays
-4. Methods
-5. Miscellaneous JS Topics
-6. Application Programming Interface (API)
-7. Shorthand Coding Techniques
-8. Development Pitfalls
+1. [Primitive Data Types](#primitive-data)
+2. [Undefined versus Null](#undefined-versus-null)
+3. [Arrays](#arrays)
+4. [Methods](#methods)
+5. [Miscellaneous JS Topics](#miscellaneous)
+6. [Application Programming Interface (API)](#api)
+7. [Shorthand Coding Techniques](#shorthand)
+8. [Development Pitfalls](#pitfalls)
   
 <hr />
 
-## 1. Primitive Data Types
+## 1. <a name="primitive-data">Primitive Data Types</a>
   
 **Primitive Data Types:** Primitive data types in JavaScript (JS) are unchangeable and unalterable (in developer lingo: immutable). This includes variables of the types: *String*, *Boolean*, *Number*, *BigInt*, *Symbol*, *Null*, and *Undefined*. Unlike objects (e.g., functions, arrays), primitive variables store by value rather than reference.
   
@@ -40,7 +40,7 @@
 
 <hr />
   
-## 2. Undefined versus Null
+## 2. <a name="undefined-versus-null">Undefined versus Null</a>
   
 **Definitions/Overview:** An *undefined variable* in JS is one in which the variable was declared but not yet given a value (in other words, not yet initialized). JS automatically assigns the type of 'undefined' to variables of this context. In comparison, a *null variable* is one that purposely and deliberately lacks an object value (this is commonly done to reset the value of a variable, or otherwise clear it out). Nulls are of the type 'object'.
   
@@ -58,7 +58,7 @@ console.log(x); // would output 'null', as variable has been defined by develope
   
 <hr />
   
-## 3. Arrays
+## 3. <a name="arrays">Arrays</a>
   
 **Arrays:** Arrays contrast with variables in that arrays allow for multiple values to be stored in one structure. Examples of items arrays can collect include objects, strings, numbers, and other arrays (essentially, if an item has a data type, it can be stored in an array). There are two common ways to create a JS array:
   
@@ -86,7 +86,7 @@ console.log(pets); // Returns: ["cat", "dog", "hamster"]
   
 <hr />
   
-## 4. Methods
+## 4. <a name="methods">Methods</a>
   
 **Methods:** Methods play an essential role in JS, as well as other Object-Oriented Programming (OOP) languages. Tasks such as optimizing the performance of code, manipulating/transforming data (such as String, Array, and Object data), and empowering the user to interact via interfaces are common purposes of JS methods.
 
@@ -113,7 +113,7 @@ console.log(pets); // Returns: ["cat", "dog", "hamster"]
     
 <hr />
   
-## 5. Miscellaneous JS Topics
+## 5. <a name="miscellaneous">Miscellaneous JS Topics</a>
   
 **Asyncs and Awaits:** These are used in tandem with promises (see the 'Promises' section below). If the keyword `async` is written before a function, then the function is intended to return a promise. If the keyword `await` is written inside of an async funtion, then the program will wait until after the promise is fulfilled.
 
@@ -150,7 +150,7 @@ Several JS promise methods include:
   
 <hr />
   
-## 6. Application Programming Interface (API)
+## 6. <a name="api">Application Programming Interface (API)</a>
   
 **API and the fetch() method:**
   
@@ -202,7 +202,7 @@ The above code samples are deliberately simple illustrations of what the objects
   
 <hr />
   
-## 7. Shorthand Coding Techniques
+## 7. <a name="shorthand">Shorthand Coding Techniques</a>
   
 Shorthand coding techniques can be utilized to write simpler, more easily readable, and more cost efficient programs. Such techniques include...
 
@@ -356,7 +356,7 @@ const favorite = `Did you know that ${name} really likes to study ${subject}?`;
   
 <hr />
   
-## 8. Development Pitfalls
+## 8. <a name="pitfalls">Development Pitfalls</a>
   
 *Some common pitfalls in JS development include:*
   
