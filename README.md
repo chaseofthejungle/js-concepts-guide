@@ -10,6 +10,7 @@
 6. [Application Programming Interface (API)](#api)
 7. [Shorthand Coding Techniques](#shorthand)
 8. [Development Pitfalls](#pitfalls)
+9. [Supplemental Resource](#supplemental)
   
 <hr />
 
@@ -366,6 +367,12 @@ const favorite = `Did you know that ${name} really likes to study ${subject}?`;
 * Not modularizing functions (failing to write functions so that they only perform one task at a time).  
 * Only using `var` instead of `let` and `const` for variable declarations, potentially leading to redeclarations and variables declared outside of proper scope.
 * Poor loop performance due to reading array length attribute at each iteration (solvable by storing length within a variable and accessing it as necessary).
+  
+<hr />
+
+## 9. <a name="supplemental">Supplemental Resource</a>
+  
+* [Intro to MERN and MEAN Stack Overview Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)  
   
 <hr />
   
