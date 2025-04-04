@@ -10,7 +10,7 @@
 6. [Application Programming Interface (API)](#api)
 7. [Shorthand Coding Techniques](#shorthand)
 8. [Development Pitfalls](#pitfalls)
-9. [Supplemental Resource](#supplemental)
+9. [Supplemental Resources](#supplemental)
   
 <hr />
 
@@ -372,7 +372,8 @@ const favorite = `Did you know that ${name} really likes to study ${subject}?`;
 
 ## 9. <a name="supplemental">Supplemental Resource</a>
   
-* [Intro to MERN and MEAN Stack Overview Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)  
+* *[Intro to MERN and MEAN Stack Overview Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)*
+* *[JavaScript Event Handling Guide](https://github.com/chaseofthejungle/js-event-handling-guide)*  
   
 <hr />
   
