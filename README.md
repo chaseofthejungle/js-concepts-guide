@@ -370,10 +370,11 @@ const favorite = `Did you know that ${name} really likes to study ${subject}?`;
   
 <hr />
 
-## 9. <a name="supplemental">Supplemental Resource</a>
+## 9. <a name="supplemental">Supplemental Resources</a>
   
 * *[Intro to MERN and MEAN Stack Overview Guide](https://github.com/chaseofthejungle/intro-to-mern-and-mean-stack)*
-* *[JavaScript Event Handling Guide](https://github.com/chaseofthejungle/js-event-handling-guide)*  
+* *[JavaScript Event Handling Guide](https://github.com/chaseofthejungle/js-event-handling-guide)*
+* *[Node.js JavaScript Runtime Environment Official Website](https://nodejs.org/en)*
   
 <hr />
   
